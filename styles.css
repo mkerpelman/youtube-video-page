@@ -1,0 +1,97 @@
+/* Nice, comprehensive CSS reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Style for navigation bar */
+nav {
+  height: 60px;
+  background-color: blue;
+}
+
+/* Flexbox for main page */
+#main {
+  display: flex;
+  height: 200vh;
+}
+
+/* Style for video section */
+#video-container {
+  background-color: green;
+  width: 70vw;
+}
+
+/* Style for recommended videos */
+#recommended-container {
+  background-color: pink;
+  width: 30vw;
+}
+
+/* Style for video interface */
+#video-window {
+  background-color: red;
+  height: 700px;
+  margin-top: 25px;
+}
+
+#video-details {
+  background-color: orange;
+  height: 100px;
+}
+
+#channel-details {
+  background-color: purple;
+  height: 200px;
+}
+
+#comments-section {
+  background-color: goldenrod;
+  height: 800px;
+}
+
+/* Repeat style for elements in video container */
+.video-section-element {
+  width: 88%;
+  margin-left: 150px;
+}
